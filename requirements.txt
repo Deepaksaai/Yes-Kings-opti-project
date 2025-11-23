@@ -1,0 +1,8 @@
+osmnx
+geopandas
+openrouteservice
+pulp
+matplotlib
+numpy
+shapely
+jupyter
