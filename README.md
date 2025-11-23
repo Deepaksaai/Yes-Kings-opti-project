@@ -99,7 +99,7 @@ We then visualise:
 - resulting average and worst case response times  
 
 
-#How to run
+# How to run
 
 git clone https://github.com/Deepaksaai/Yes-Kings-opti-project.git
 cd Yes-Kings-opti-project
@@ -108,6 +108,21 @@ python -m venv .venv
 source .venv/bin/activate   # on Windows: .venv\Scripts\activate
 
 pip install -r requirements.txt
+
+Sign up for an API key on OpenRouteService and set it in your code, for example:
+
+```text
+import openrouteservice as ors
+
+ORS_API_KEY = "YOUR_KEY_HERE"  # replace with your key inside quotes
+client = ors.Client(key=ORS_API_KEY)
+
+```
+Start jupyter notebook and run final.ipynb
+
+
+
+
 
 
 
